@@ -8,7 +8,7 @@ A **Multi-Agent Machine Learning Pipeline** built with LangGraph and Groq that a
 
 ## 🎥 Watch the Full Build Video
 
-[![AutoML Agent System](https://img.shields.io/badge/YouTube-Watch%20Full%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtube.com/@DataScienceDiaries)
+[![AutoML Agent System](https://img.shields.io/badge/YouTube-Watch%20Full%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/gQplwwqOr0g)
 
 ---
 
