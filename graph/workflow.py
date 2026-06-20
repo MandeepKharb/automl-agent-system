@@ -21,4 +21,17 @@ def build_workflow():
     workflow.add_edge("model_trainer", "report_writer")
     workflow.add_edge("report_writer", END)
 
-    return workflow.compile()
+    app = workflow.compile()
+
+    # Generate graph image
+    graph_png = app.get_graph().draw_mermaid_png()
+
+    with open("workflow_graph.png", "wb") as f:
+        f.write(graph_png)
+
+    print("Graph image saved as workflow_graph.png")
+
+    return app
+
+if __name__ == "__main__":
+    build_workflow()
